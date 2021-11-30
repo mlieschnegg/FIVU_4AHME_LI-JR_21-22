@@ -1,0 +1,6 @@
+{
+    "AVR.source.compiler": "c:\\WinAVR-20100110\\bin\\avr-gcc.exe",
+    "AVR.programmer.tool": "c:\\WinAVR-20100110\\bin\\avrdude.exe",
+    "AVR.programmer.definitions": "c:\\WinAVR-20100110\\bin\\avrdude.conf",
+    "AVR.source.libraries": []
+}
