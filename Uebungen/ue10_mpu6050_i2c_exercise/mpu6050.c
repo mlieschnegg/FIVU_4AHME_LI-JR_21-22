@@ -80,9 +80,9 @@ void MPU6050_readSensorData(void)
 
     //acc values
     //TODO: convert the register values of the MPU6050 from digits to acceleration of unit "g"
-    gl_f_accval[0] = 0;
-    gl_f_accval[1] = 0;
-    gl_f_accval[2] = 0;
+    gl_f_accval[0] = ((int16_t) ((gl_uc_twi_buffer[0] << 8) | (gl_uc_twi_buffer[1])))/16384.0;
+    gl_f_accval[1] = ((int16_t) ((gl_uc_twi_buffer[2] << 8) | (gl_uc_twi_buffer[3])))/16384.0;
+    gl_f_accval[2] = ((int16_t) ((gl_uc_twi_buffer[4] << 8) | (gl_uc_twi_buffer[5])))/16384.0;
 
     //gl_f_tempval
     gl_f_tempval = ((int16_t) (gl_uc_twi_buffer[6] << 8) | (gl_uc_twi_buffer[7]))/340.0 + 36.53;

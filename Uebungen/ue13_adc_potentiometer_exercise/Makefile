@@ -16,9 +16,10 @@ DEVICE     = atmega328p
 CLOCK      = 16000000
 
 ifeq ($(OS),Windows_NT)
-	PROGRAMMER = -c arduino -P COM9 -b 115200 
+	PROGRAMMER = -c arduino -P COM10 -b 115200 
 else
-	PROGRAMMER = -c arduino -P /dev/ttyACM0 -b 115200 
+	PROGRAMMER =
+	 -c arduino -P /dev/ttyACM0 -b 115200 
 endif
 
 SRCS=$(wildcard *.c)

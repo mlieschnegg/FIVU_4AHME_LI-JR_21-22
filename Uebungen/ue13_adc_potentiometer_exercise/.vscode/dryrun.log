@@ -1,0 +1,9 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/micha/OneDrive - HTBLA Kaindorf/Arbeit/HTL-Kaindorf/Lern_und_Lehrunterlagen/FIVU/Git-FIVU/Uebungen/ue13_adc_potentiometer_exercise'
+avr-gcc -Wall -Os -DF_CPU=16000000 -mmcu=atmega328p -std=c99 -Wl,-u,vfprintf -lprintf_flt -c main.c -o main.o
+avr-gcc -Wall -Os -DF_CPU=16000000 -mmcu=atmega328p -std=c99 -Wl,-u,vfprintf -lprintf_flt -c uart.c -o uart.o
+avr-gcc -Wall -Os -DF_CPU=16000000 -mmcu=atmega328p -std=c99 -Wl,-u,vfprintf -lprintf_flt -o main.elf main.o uart.o
+rm -f main.hex
+avr-objcopy -j .text -j .data -O ihex main.elf main.hex
+make.exe: Leaving directory `c:/Users/micha/OneDrive - HTBLA Kaindorf/Arbeit/HTL-Kaindorf/Lern_und_Lehrunterlagen/FIVU/Git-FIVU/Uebungen/ue13_adc_potentiometer_exercise'
+ 

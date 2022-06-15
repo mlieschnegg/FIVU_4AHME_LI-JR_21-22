@@ -1,0 +1,438 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# Make data base, printed on Wed Jun 15 08:02:07 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+TESSDATA_PREFIX = C:\Program Files\Tesseract-OCR\tessdata
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+ULTRAMON_LANGDIR = C:\Program Files\UltraMon\Resources\de
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.4.3
+# makefile (from `makefile', line 29)
+FUSES = -U lfuse:w:0x64:m -U hfuse:w:0xdd:m -U efuse:w:0xff:m
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/micha/OneDrive - HTBLA Kaindorf/Arbeit/HTL-Kaindorf/Lern_und_Lehrunterlagen/FIVU/Git-FIVU/Uebungen/ue13_adc_potentiometer_exercise
+# default
+SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\micha\OneDrive - HTBLA Kaindorf
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\micha\AppData\Local\Temp
+# makefile (from `makefile', line 15)
+DEVICE = atmega328p
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\micha\OneDrive - HTBLA Kaindorf
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+TURTLEBOT3_MODEL = burger
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-937a7659-b6f0-4cd1-9e2a-c981dcbadaf5-sock
+# environment
+VSCODE_CWD = C:\Users\micha\AppData\Local\Programs\Microsoft VS Code
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132843288244707631
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
+# environment
+USERPROFILE = C:\Users\micha
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from `makefile', line 37)
+AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE)
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12764_MFRNWUFWANKVZQDF
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = MLIESCHNEGG
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+SESSIONNAME = Console
+# makefile (from `makefile', line 19)
+PROGRAMMER = -c arduino -P COM10 -b 115200 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+AVR32_HOME = C:\WinAVR-20100110
+# environment
+USERNAME = michael.lieschnegg
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\micha\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\MLIESCHNEGG
+# makefile (from `makefile', line 38)
+COMPILE = avr-gcc -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) -std=c99 -Wl,-u,vfprintf -lprintf_flt
+# environment
+ONEDRIVECONSUMER = C:\Users\micha\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = MLIESCHNEGG
+# environment
+PLATFORMIO_PATH = C:\Users\micha\.platformio\python3;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Qt 4.7.4(LGPL)V2.0\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Java\apache-maven-3.6.0\bin;C:\Users\micha\AppData\Local\Programs\Python\Python39;C:\Users\micha\AppData\Local\Programs\Python\Python39\Scripts;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\micha\AppData\Local\Microsoft\WindowsApps;C:\Users\micha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Users\micha\AppData\Local\Programs\Python\Python39;C:\Users\micha\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\Tesseract-OCR;C:\tttool-1.10;;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Qt 4.7.4(LGPL)V2.0\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Java\apache-maven-3.6.0\bin;C:\Users\micha\AppData\Local\Programs\Python\Python39;C:\Users\micha\AppData\Local\Programs\Python\Python39\Scripts;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\micha\AppData\Local\Microsoft\WindowsApps;C:\Users\micha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Users\micha\AppData\Local\Programs\Python\Python39;C:\Users\micha\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\Tesseract-OCR;C:\tttool-1.10;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Qt 4.7.4(LGPL)V2.0\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Java\apache-maven-3.6.0\bin;C:\Users\micha\AppData\Local\Programs\Python\Python39;C:\Users\micha\AppData\Local\Programs\Python\Python39\Scripts;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\micha\AppData\Local\Microsoft\WindowsApps;C:\Users\micha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Users\micha\AppData\Local\Programs\Python\Python39;C:\Users\micha\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\Tesseract-OCR;C:\tttool-1.10;
+# makefile (from `makefile', line 25)
+SRCS = $(wildcard *.c)
+# environment
+JAVA_HOME = C:\Program Files (x86)\Java\jre1.8.0_144
+# environment
+OMP_NUM_THREADS = 4
+# default
+MAKE_VERSION := 3.81
+# environment
+__PSLOCKDOWNPOLICY = 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\micha\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# makefile (from `makefile', line 16)
+CLOCK = 16000000
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\f5bc65bbad6cc1486599133207c90563-1.68.0-main-sock
+# environment
+HOMEPATH = \Users\micha
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\micha\AppData\Roaming
+# environment
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+# environment
+TEMP = C:\Users\micha\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+ROS_MASTER_URI = http://192.168.0.8:11311
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+ROS_HOSTNAME = 192.168.0.8
+# environment
+PROCESSOR_REVISION = 4e03
+# environment
+MAKELEVEL := 0
+# makefile (from `makefile', line 26)
+OBJECTS = $(SRCS:.c=.o)
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 12764
+# environment
+USERDOMAIN_ROAMINGPROFILE = MLIESCHNEGG
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=17/139=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/micha/OneDrive - HTBLA Kaindorf/Arbeit/HTL-Kaindorf/Lern_und_Lehrunterlagen/FIVU/Git-FIVU/Uebungen/ue13_adc_potentiometer_exercise, mtime 1655245527): 12 files, no impossibilities.
+# C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1605739798): 75 files, no impossibilities.
+# C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1605739722): 99 files, no impossibilities so far.
+
+# 186 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+main.elf: main.o uart.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 00:21:50
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 73):
+	$(COMPILE) -o main.elf $(OBJECTS)
+	
+
+all: main.hex
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+main.hex: main.elf
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 00:21:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 76):
+	rm -f main.hex
+	avr-objcopy -j .text -j .data -O ihex main.elf main.hex
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 86):
+	$(COMPILE) -E main.c
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 23:00:50
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(COMPILE) -c $< -o $@
+	
+
+# Not a target:
+uart.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-30 08:46:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 69):
+	rm -f main.hex main.elf $(OBJECTS)
+	
+
+hterm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 91):
+	../../tools/hterm.exe ../../tools/hterm_win.cfg
+	
+
+fuse:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 60):
+	$(AVRDUDE) $(FUSES)
+	
+
+flash: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 57):
+	$(AVRDUDE) -U flash:w:main.hex:i
+	
+
+# Not a target:
+main.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 00:21:50
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+load: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 66):
+	bootloadHID main.hex
+	
+
+.c.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 54):
+	$(COMPILE) -S $< -o $@
+	
+
+.S.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 47):
+	$(COMPILE) -x assembler-with-cpp -c $< -o $@
+	
+
+disasm: main.elf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 83):
+	avr-objdump -d main.elf
+	
+
+install: flash fuse
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=3/40=8%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jun 15 08:02:07 2022
+
+ 

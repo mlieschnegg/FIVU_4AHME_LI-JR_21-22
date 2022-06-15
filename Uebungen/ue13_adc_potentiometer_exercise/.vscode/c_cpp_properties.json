@@ -11,7 +11,8 @@
             ],
             "compilerPath": "C:/WinAVR-20100110/bin/avr-gcc",
             "cStandard": "gnu11",
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
         },
         {
             "name": "Linux",
